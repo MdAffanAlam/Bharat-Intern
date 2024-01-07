@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    .back-button {
+        text-decoration: none;
+        color: #fff;
+        padding: 8px 16px;
+        border-radius: 4px;
+        background-color: rgb(196, 187, 187);
+        margin-right: 10px;
+    }
+
+    section {
+        margin: 20px;
+    }
+    #skills {
+        background-color: #f4f4f4;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 30px;
+    }
+
+    #skills h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    #skills ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #skills li {
+        background-color: #3498db;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    #skills li:hover {
+        background-color: #2980b9;
+    }
+
+    h2 {
+        color: #333;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+
+    .project {
+        margin-bottom: 20px;
+    }
+
+    #about {
+        background-color: #ecf0f1;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #about h2 {
+        color: #2c3e50;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    #about p {
+        color: #34495e;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    /* Responsive Styles */
+
+    @media screen and (max-width: 600px) {
+        header {
+            padding: 1em;
+        }
+
+        section {
+            margin: 10px;
+        }
+    }
+</style>
+
+<body>
+    <header>
+        <a class="back-button" href="index.html">Back</a>
+        <h1>MD Affan Alam</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am a passionate web developer with a strong foundation in front-end and back-end technologies. I
+            love turning ideas into reality through coding.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Java</li>
+            <li>C/C++</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Project 1 - Weather Application</h3>
+            <p>This Weather Application/website is built using HTML, CSS, and JavaScript. It provides users with
+                real-time weather updates and forecasts, offering a user-friendly interface to stay informed about the
+                current weather conditions.</p>
+        </div>
+
+        <div class="project">
+            <h3>Project 2 - Personal Portfolio</h3>
+            <p>This Personal Portfolio is a static website crafted with HTML and CSS. It serves as a digital resume,
+                showcasing the creator's skills, experiences, and projects. The minimalistic design focuses on
+                presenting the individual's professional profile effectively.</p>
+        </div>
+
+        <div class="project">
+            <h3>Project 3 - Email Validator</h3>
+            <p>The Email Validator Application/website, developed with HTML and CSS, offers a simple tool to verify the
+                validity of email addresses. Users can input an email, and the application checks its format and
+                structure, providing feedback on whether it is a valid email address.</p>
+        </div>
+
+        <div class="project">
+            <h3>Project 4 - iNotebook</h3>
+            <p>The iNotebook Application/website is a basic note-taking platform created using only HTML and CSS. It
+                provides users with a platform to jot down quick notes, ideas, or reminders. The simplicity of the
+                design enhances the ease of use for quick and efficient note-taking.</p>
+        </div>
+
+        <div class="project">
+            <h3>Project 5 - Word Counter</h3>
+            <p>The Word Counter Application/website, developed with HTML and CSS, offers a tool to count the number of
+                words in a given text. Users can input text, and the application provides an instant count of words,
+                helping with tasks such as writing essays or analyzing document content.</p>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: affanalam2019@gmail.com</p>
+        <p>LinkedIn: linkedin.com/in/mdaffanalam</p>
+        <p>GitHub: github.com/yourusername</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MD Affan Alam. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
